@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta http-equiv="X-UA-Compatible" content="IE-Chrome">
+            <link rel="stylesheet" href="Style.css"/>
+        <title>Age Checker</title>
+    </head>
+    <body>
+        <header>
+            <p class="title">Age checker</p>
+        </header>
+        <section>
+                <div id="content">
+            <p>Which year you has born?
+                <input type="number" name="txtano" id="txtano">
+            </p>
+                <p> What's your sex?
+                        <input type="radio" name="radsexo" id="msex" checked>
+                            <label for="msex">Masculine</label>
+                        <input type="radio" name="radsexo" id="fsex" name="Feminine"> <!--- Same name for, just one can be true -->
+                    <label for="fsex">Feminine</label>
+                </p>
+                    <input type="button" id="bt_check" value="Verify" onclick="Verificar()">
+                        <div id="res">
+                            Fill in the data above to see the result
+                        <br>
+                </div>
+        </section>
+            <footer>
+                <p>&copy;Pedro Furigo</p>
+            </footer>
+        <script src="Script.js"></script>
+    </body>
+</html>

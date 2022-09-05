@@ -1,0 +1,33 @@
+body{
+    width: auto;
+    height: auto;
+    padding: 20px;
+    color: #000000;
+    background-color: rgb(70, 142, 241);
+    font-size: 21px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.title{
+    font-size: 30px;
+}
+section{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    margin: auto;
+    width: auto !important; /*align section in center*/
+    max-width: 600px;
+}
+div{
+    padding: 8px;
+}
+footer{
+    color:#ffffff;
+    font-size: 18px;
+    font-style: italic;
+}
+section p{
+    text-align: justify; 
+}
+
